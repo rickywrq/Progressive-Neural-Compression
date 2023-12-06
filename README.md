@@ -8,7 +8,7 @@ This repository contains the source code and testbed setup instructions for **R.
 ![pnc_overview](assets/pnc_overview.png?raw=true)
 
 ## Quick Demo
-* Install the required environment, mainly TensorFlow. We tried to use tf.keras and make the code compatible for most Tensorflow versions, but if it raises an error please consider `tensorflow==2.8.0`.
+* Install the required environment, mainly TensorFlow. We tried to use tf.keras and make the code compatible for most Tensorflow 2 versions >2.5, but if it raises an error please consider `tensorflow==2.8.0`.
 * Put the ImageNet Val images (named as `ILSVRC2012_val_00000001.JPEG`, etc.) in `demo_simulation\val2017`. There are multiple sources to download this dataset, e.g. from [Kaggle ImageNet Object Localization Challenge](https://www.kaggle.com/competitions/imagenet-object-localization-challenge/data).
 * The demo file is located at: `demo_simulation\pnc_demo_simulation.ipynb`
 
