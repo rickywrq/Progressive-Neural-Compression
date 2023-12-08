@@ -1,0 +1,1 @@
+# Receive, decode and classify images on the edge server.
