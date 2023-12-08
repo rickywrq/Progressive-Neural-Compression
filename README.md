@@ -13,3 +13,4 @@ This repository contains the source code and testbed setup instructions for **R.
 * The demo file is located at: `demo_simulation\pnc_demo_simulation.ipynb`
 
 ## Experimental Setup
+Instructions for experimental hardware and testbed setup can be found in [testbed/](https://github.com/rickywrq/Progressive-Neural-Compression/blob/main/testbed/)
