@@ -41,6 +41,10 @@ encoder_model = keras.Model(encoder_input, encoder_x,  name='enocder')
 
 Simply open it with jupyter notebook and run it.
 
+The encoder model `demo_simulation/saved_tflite_models_demo/best_encoder_tuned_model_uint8.tflite` can be visualized by [Netron](https://netron.app/).
+
+![pnc_encoder](assets/pnc_encoder_netron.png?raw=true)
+An example visualization of the encoder model.
 
 ## Experimental Setup
 Instructions for experimental hardware and testbed setup can be found in [testbed/](https://github.com/rickywrq/Progressive-Neural-Compression/blob/main/testbed/)
