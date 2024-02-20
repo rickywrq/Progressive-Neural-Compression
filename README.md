@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This repository contains the source code and testbed setup instructions for **R. Wang, H. Liu, J. Qiu, M. Xu, R. Guerin, C. Lu, Progressive Neural Compression for Adaptive Image Offloading under Timing Constraints, IEEE Real-Time Systems Symposium ([RTSS'23](https://2023.rtss.org/)), December 2023. [[arxiv](https://arxiv.org/pdf/2310.05306.pdf)]**
+This repository contains the source code and testbed setup instructions for **R. Wang, H. Liu, J. Qiu, M. Xu, R. Guerin, C. Lu, Progressive Neural Compression for Adaptive Image Offloading under Timing Constraints, IEEE Real-Time Systems Symposium ([RTSS'23](https://2023.rtss.org/)), December 2023. [[arXiv](https://arxiv.org/pdf/2310.05306.pdf)] [[RTSS 2023 Proceedings](https://doi.ieeecomputersociety.org/10.1109/RTSS59052.2023.00020)]**
 ![pnc_overview](assets/pnc_overview.png?raw=true)
 
 ## Quick Demo
