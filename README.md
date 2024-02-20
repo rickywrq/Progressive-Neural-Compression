@@ -1,6 +1,6 @@
 # Progressive-Neural-Compression
 
-### [Dec 15, 2023] We are actively uploading the code files for simulation and experiments. If you have any questions, please contact the authors. The network and the checkpoints are in the `demo_simulation` folder
+### [Feb, 2024] We are actively uploading the code files for training. If you have any questions, please contact the authors. The network and the checkpoints are in the `demo_simulation` folder
 
 ## Introduction
 
@@ -48,3 +48,28 @@ An example visualization of the encoder model.
 
 ## Experimental Setup
 Instructions for experimental hardware and testbed setup can be found in [testbed/](https://github.com/rickywrq/Progressive-Neural-Compression/blob/main/testbed/)
+
+
+## Citation
+
+If you find our paper useful, please consider citing this in your publication.
+
+```bibtex
+@INPROCEEDINGS {10405983,
+author = {R. Wang and H. Liu and J. Qiu and M. Xu and R. Guerin and C. Lu},
+booktitle = {2023 IEEE Real-Time Systems Symposium (RTSS)},
+title = {Progressive Neural Compression for Adaptive Image Offloading Under Timing Constraints},
+year = {2023},
+volume = {},
+issn = {},
+pages = {118-130},
+abstract = {IoT devices are increasingly the source of data for machine learning (ML) applications running on edge servers. Data transmissions from devices to servers are often over local wireless networks whose bandwidth is not just limited but, more importantly, variable. Furthermore, in cyber-physical systems interacting with the physical environment, image offloading is also commonly subject to timing constraints. It is, therefore, important to develop an adaptive approach that maximizes the inference performance of ML applications under timing constraints and the resource constraints of IoT devices. In this paper, we use image classification as our target application and propose progressive neural compression (PNC) as an efficient solution to this problem. Although neural compression has been used to compress images for different ML applications, existing solutions often produce fixed-size outputs that are unsuitable for timing-constrained offloading over variable bandwidth. To address this limitation, we train a multi-objective rateless autoencoder that optimizes for multiple compression rates via stochastic taildrop to create a compression solution that produces features ordered according to their importance to inference performance. Features are then transmitted in that order based on available bandwidth, with classification ultimately performed using the (sub)set of features received by the deadline. We demonstrate the benefits of PNC over state-of-the-art neural compression approaches and traditional compression methods on a testbed comprising an IoT device and an edge server connected over a wireless network with varying bandwidth.},
+keywords = {performance evaluation;image coding;image edge detection;bandwidth;timing;internet of things;servers},
+doi = {10.1109/RTSS59052.2023.00020},
+url = {https://doi.ieeecomputersociety.org/10.1109/RTSS59052.2023.00020},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = {dec}
+}
+```
+
