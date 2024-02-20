@@ -1,5 +1,6 @@
 # Training
-
+## Data preparation
+Download the data file `b0_logits_224.npy` from [https://github.com/rickywrq/Progressive-Neural-Compression/releases/tag/data](https://github.com/rickywrq/Progressive-Neural-Compression/releases/tag/data) and put it in data/
 ## Command
 Train the autoencoder without the image classifier (--mode 0):
 ```
