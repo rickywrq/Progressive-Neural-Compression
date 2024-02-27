@@ -11,6 +11,7 @@ This repository contains the source code and testbed setup instructions for **R.
 ![pnc_overview](assets/pnc_overview.png)
 
 
+
 ## Quick Demo
 * Install the required environment, mainly TensorFlow and other related libraries (tensorflow-addons, tqd, etc.). We used tf.keras and the code should be compatible with most Tensorflow/Keras 2 versions >2.5 (but <=2.15, as 2.16 starts to use Keras 3), but if it raises an error please consider `tensorflow==2.8.0` (https://pypi.org/project/tensorflow/2.8.0/).
   > ⚠️ **Package versions:** Our edge server use Nvidia driver 510.47.03, CUDA version: 11.6. Python 3.8.8. `tensorflow==2.8.0`. If your python version is not among 3.7-3.10, you may encounter errors when installing `tensorflow==2.8.0` ([more details](https://www.tensorflow.org/install/source#gpu)).
@@ -50,9 +51,13 @@ encoder_model = keras.Model(encoder_input, encoder_x,  name='enocder')
 Simply open it with jupyter notebook and run it.
 
 The encoder model `demo_simulation/saved_tflite_models_demo/best_encoder_tuned_model_uint8.tflite` can be visualized by [Netron](https://netron.app/).
+<div align="center">
+  <img src="assets/pnc_encoder_netron.png" width="60%" /> 
+  
+  **Figure: An example visualization of the encoder model.**
+</div>
 
-![pnc_encoder](assets/pnc_encoder_netron.png?raw=true)
-An example visualization of the encoder model.
+
 
 ## Experimental Setup
 Instructions for experimental hardware and testbed setup can be found in [testbed/](https://github.com/rickywrq/Progressive-Neural-Compression/blob/main/testbed/)
