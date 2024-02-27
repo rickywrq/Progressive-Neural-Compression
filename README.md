@@ -1,6 +1,6 @@
 # Progressive-Neural-Compression
 
-### [Feb, 2024] We are actively working on this repo. If you have any questions, please contact the first author. The network and the checkpoints are in the `demo_simulation` folder. To train PNC from scratch, please go to `training`.
+### [Feb 27, 2024] We are actively updating this repo (mainly for the testbed). If you have any questions, please contact the first author. The network and the checkpoints are in the `demo_simulation` folder. To train PNC from scratch, please go to `training`.
 
 ## Introduction
 
