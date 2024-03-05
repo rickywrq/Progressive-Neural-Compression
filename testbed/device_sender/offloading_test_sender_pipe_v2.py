@@ -10,7 +10,6 @@ import tflite_runtime.interpreter as tflite
 from client_utils.serialNumpyPipe import SerialClient
 from waiting import wait
 from threading import Thread, Lock, BoundedSemaphore
-# import client_utils.tokenBucket as tokenBucket
 import os
 
 def getEncoderImagenet(tflite_file):
