@@ -11,7 +11,7 @@ from tensorflow.keras import models
 import logging
 import tensorflow_compression as tfc
 import tensorflow_probability as tfp
-from .utils_imagenet import TailDropout1D
+from .utils_imagenet import TailDropout1D, TailDropout
 
 class AsymAE:
     def __init__(self, img_size=(224, 224), out_size=8):
