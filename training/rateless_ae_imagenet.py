@@ -144,28 +144,6 @@ def prepare_data_MSE_KL(img_paths, gts, img_size=(224, 224)):
     train_dataset, val_dataset, test_dataset = train_val_test_split(dataset_pd, 35000, 5000, 10000)
     return train_dataset, val_dataset, test_dataset
 
-# def evaluate_reconstruct(encoder, decoder, aetest_dataset):
-#     iterator = iter(aetest_dataset)
-#     sample_image_batch = iterator.get_next()
-
-#     sample_image_batch = sample_image_batch[0]
-
-#     test_input = sample_image_batch[:10]
-#     bn_full = encoder.predict(test_input)
-#     print(bn_full.shape)
-#     # k = [1,2,3,4,5,7,10, 32, 64]
-#     k = [1, 2, 3, 4, 5, 6, 7, 8]
-#     print("*****Original Inputs*****:")
-#     display_first_several(test_input, test_input.numpy(), rows=1)
-#     for ik in k:
-#         print("Number of Features:", ik)
-#         bn = bn_full.copy()
-#         bn[:, :, :, ik:] = 0
-#         out = decoder.predict(bn)
-#         display_first_several(test_input, out, rows=1)
-#     print("*****Original Inputs*****:")
-#     display_first_several(test_input, test_input.numpy(), rows=1)
-
 
 def fine_tune_AE(autoencoder, cls, learning_rate, train_dataset, val_dataset):
     class AllLogger(tf.keras.callbacks.Callback):
