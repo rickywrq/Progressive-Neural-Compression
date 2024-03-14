@@ -372,11 +372,7 @@ def get_encoder_decoder(autoencoder):
 def ae_model_loader(name):
     if name == 'PNC':
         model = AsymAE_two_conv_PNC
-    if name == 'AsymAE_two_conv':
-        model = AsymAE_two_conv
-    if name == 'as_deeper_2':
-        model = AsymAE_deeper_2
-
+    
     return model
 
 
