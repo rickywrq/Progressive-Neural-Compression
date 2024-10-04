@@ -1,6 +1,9 @@
 # Progressive-Neural-Compression
-
-### If you have any questions, please contact the first author. To quickly try PNC, the network and the checkpoints are in the `demo_simulation` folder. To train PNC from scratch, please go to `training`.
+## Quick start with Progressive Neural Compression (PNC): 
+* To quickly try PNC, the network and the checkpoints are in the `demo_simulation` folder. 
+* To train PNC from scratch, please go to `training`. 
+* The testbed implementation of PNC on Raspberry Pi 4 + nRF52840 development kits is at `testbed`.
+* For any questions, please contact the first author.
 
 ## Introduction
 
@@ -8,8 +11,18 @@ This repository contains the source code and testbed setup instructions for **R.
 
 🏆🤫 *This paper won "Outstanding Paper Award" and "[RTSS 2023 Best Student Paper Award](https://2023.rtss.org/awards/)."* 🌟🥇 Great thanks to everyone on the team.
 
+<!-- ![pnc_accuracy_size_tradeoff](assets\pnc_accuracy_datasize.png) -->
+
+<div align="center">
+  <img src="assets\pnc_accuracy_datasize.png" width=100% height=100%>
+  
+  **Figure: Top-5 Accuracy vs the Datasize (KB) for different image compression techniques on the ImageNet dataset.** Quality factors (q) are annotated on the graph, showing how varying quality levels impact performance for some methods.
+
+
 ![pnc_overview](assets/pnc_overview.png)
 
+**Figure: Offline training phase and the online runtime phase.**
+</div>
 
 
 ## Quick Demo
