@@ -5,6 +5,7 @@
 * The testbed implementation of PNC on Raspberry Pi 4 + nRF52840 development kits is at `testbed`.
 * For any questions, please contact the first author.
 
+
 ## Introduction
 
 This repository contains the source code and testbed setup instructions for **R. Wang, H. Liu, J. Qiu, M. Xu, R. Guerin, C. Lu, [Progressive Neural Compression for Adaptive Image Offloading under Timing Constraints](https://doi.org/10.1109/RTSS59052.2023.00020), IEEE Real-Time Systems Symposium ([RTSS'23](https://2023.rtss.org/)), December 2023.  [[IEEE Xplore](https://doi.org/10.1109/RTSS59052.2023.00020)]** [[arXiv](https://arxiv.org/pdf/2310.05306.pdf)] [[RTSS 2023 Proceedings](https://doi.ieeecomputersociety.org/10.1109/RTSS59052.2023.00020)]
@@ -23,6 +24,16 @@ This repository contains the source code and testbed setup instructions for **R.
 
 **Figure: Offline training phase and the online runtime phase.**
 </div>
+
+**This work is closely related to our *Edge Offloading* papers:**
+
+* Qiu, J., Wang, R., Hu, B., Guérin, R., & Lu, C. (2024). **"Optimizing Edge Offloading Decisions for Object Detection."**
+[[paper]]()
+[[code]](https://github.com/qiujiaming315/edgeml-object-detection/)
+
+* Qiu, J., Wang, R., Chakrabarti, A., Guérin, R., & Lu, C. (2022). **"Adaptive Edge Offloading for Image Classification Under Rate Limit."**
+[[paper]](https://ieeexplore.ieee.org/document/9852802)
+[[code]](https://github.com/qiujiaming315/edgeml-dqn)
 
 
 ## Quick Demo
