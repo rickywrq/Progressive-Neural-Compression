@@ -28,7 +28,7 @@ This repository contains the source code and testbed setup instructions for **R.
 **This work is closely related to our *Edge Offloading* papers:**
 
 * Qiu, J., Wang, R., Hu, B., Guérin, R., & Lu, C. (2024). **"Optimizing Edge Offloading Decisions for Object Detection."**
-[[paper]]()
+[[paper]](https://arxiv.org/abs/2410.18919)
 [[code]](https://github.com/qiujiaming315/edgeml-object-detection/)
 
 * Qiu, J., Wang, R., Chakrabarti, A., Guérin, R., & Lu, C. (2022). **"Adaptive Edge Offloading for Image Classification Under Rate Limit."**
