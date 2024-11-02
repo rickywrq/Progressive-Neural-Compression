@@ -1,4 +1,13 @@
 # Progressive-Neural-Compression
+
+<p align='center'>
+  <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
+  <img alt="Keras" src="https://img.shields.io/badge/Keras-FF0000?style=for-the-badge&logo=keras&logoColor=white">
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+</p>
+
+
 ## Quick start with Progressive Neural Compression (PNC): 
 * To quickly try PNC, the network and the checkpoints are in the `demo_simulation` folder. 
 * To train PNC from scratch, please go to `training`. 
