@@ -3,6 +3,7 @@
 * To quickly try PNC, the network and the checkpoints are in the `demo_simulation` folder. 
 * To train PNC from scratch, please go to `training`. 
 * The testbed implementation of PNC on Raspberry Pi 4 + nRF52840 development kits is at `testbed`.
+* ***PyTorch***: We have included a PyTorch version of the Progressive Neural Compression (PNC) model in the `pnc_pytorch` directory.
 * For any questions, please contact the first author.
 
 
@@ -44,6 +45,15 @@ This repository contains the source code and testbed setup instructions for **R.
 
 * Put the ImageNet Val images (named as `ILSVRC2012_val_00000001.JPEG`, etc.) in `demo_simulation\val2017`. There are multiple sources to download this dataset, e.g. from [Kaggle ImageNet Object Localization Challenge](https://www.kaggle.com/competitions/imagenet-object-localization-challenge/data).
 * The demo file is located at: `demo_simulation\pnc_demo_simulation.ipynb`
+
+### Using the PyTorch Model
+
+To get started with the PyTorch version of the Progressive Neural Compression (PNC) model, please refer to the Jupyter notebook provided:
+
+1. Open `pnc_pytorch/pnc_pytorch.ipynb`.
+2. Follow the step-by-step instructions in the notebook, which cover model definition, weight conversion from TensorFlow, and loading weights into the PyTorch model.
+
+Please note that while this PyTorch version replicates the structure and functionality of the original TensorFlow model, it has not been fully tested on testbed for correctness.
 
 ## Autoencoder Network
 We separate out the network, training and testbed into different folders so that user can pick the components they need conveniently. 
